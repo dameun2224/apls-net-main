@@ -1,0 +1,190 @@
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+
+.description-container {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.title {
+  font-size: 100px;
+  margin-bottom: 20px;
+}
+
+.about-title {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+  
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .site-title {
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  .navigation {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .login-logout {
+    text-align: right;
+  }
+  
+  .login-btn,
+  .logout-btn {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* 약간 투명한 회색 배경 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal {
+    width: 50%;
+    height: 50%;
+    background-color: #fff;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 8px;
+  }
+  
+  .modal input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .modal-btn-container {
+    /* 버튼들을 가로로 배치하는 Flex 설정 */
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+  }
+  
+  .modal-login-btn,
+  .modal-signup-btn {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  /* 회원가입 버튼의 스타일은 별도로 지정하지 않음 (디자인 없음) */
+.modal-signup-btn {
+    background-color: transparent;
+    color: #007bff;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .notice-card-container {
+    display: flex;
+    justify-content: center; /* 수평 가운데 정렬 */
+    align-items: center; /* 수직 가운데 정렬 */
+    margin-top: 30px;
+  }
+  
+  .notice-card {
+    width: 300px; /* 정사각형으로 설정 */
+    height: 200px; /* 정사각형으로 설정 */
+    margin: 2px; /* 간격 조정 */
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+  }
+  
+  .notice-card:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+  
+  .notice-card-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  /* 공지사항 목록 스타일 */
+.notice-list ul li {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+  cursor: pointer;
+}
+
+/* 마우스 오버 효과 */
+.notice-list ul li:hover {
+  background-color: #f0f0f0;
+  color: #007bff;
+}
+
+.sepa {
+  margin-top: 130px;
+}
+
+.no {
+  font-size: 25px;
+  margin-bottom: 0;
+}
+
+  body{
+    font-family: 'HakgyoansimWoojuR';
+    font-size: large;
+    text-align:center;
+    background-color: #FFFCF9;
+    background-image : url('image/background.jpg');
+  }
+
+  table, th, td {
+    border: 3px solid black;
+    border-radius: 7px;
+    background-color:#FFFFFA;
+  }

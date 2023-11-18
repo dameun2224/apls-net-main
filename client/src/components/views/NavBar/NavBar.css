@@ -1,0 +1,64 @@
+.navbar {
+    position: fixed;
+    top: 0; left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 0 1rem;
+    width: 100%;
+    z-index: 999; /* NavBar를 가장 위에 쌓도록 설정 */
+  }
+  
+  .site-title-link {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .site-title-link:hover {
+    text-decoration: none;
+  }
+  
+  .site-title {
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+  }
+  
+  .navigation {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+  }
+  
+  .nav-link:hover {
+    background-color: #555;
+  }
+  
+  .login-logout {
+    display: flex;
+    gap: 1rem;
+    margin-right: 2%;
+  }
+  
+  .login-btn,
+  .logout-btn {
+    padding: 0.5rem 1rem;
+    background-color: #fff;
+    color: #333;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .login-btn {
+    background-color: #333;
+    color: white;
+  }

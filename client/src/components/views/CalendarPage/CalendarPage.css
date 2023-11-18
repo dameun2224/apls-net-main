@@ -1,0 +1,17 @@
+.calendar-container {
+    width: 80%; /* FullCalendar의 크기 조정 */
+    margin: 0 auto; /* 가운데 정렬 */
+    margin-top: 8rem; /* NavBar 아래로 내리기 위한 여백 */
+  }
+
+  .calendar-container-mini {
+    width: 600px; /* FullCalendar의 크기 조정 */
+    margin: 0 auto; /* 가운데 정렬 */
+    margin-top: 0px; /* NavBar 아래로 내리기 위한 여백 */
+  }
+  
+  .full-calendar {
+    height: calc(100vh - 8rem); /* FullCalendar의 높이 조정 */
+  }
+  
+  
